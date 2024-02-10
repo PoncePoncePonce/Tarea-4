@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Tarea_4.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Tarea_4"
+    Shell.ForegroundColor="OrangeRed"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Tarea_4"
+    >
+
+    <ShellContent
+        Title="Personajes"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+    Title="Goku"
+    ContentTemplate="{DataTemplate local:Goku}"
+    Route="Goku" />
+    
+    <ShellContent
+    Title="Vegeta"
+    ContentTemplate="{DataTemplate local:Vegeta}"
+    Route="Vegeta" />
+
+    <ShellContent
+    Title="Broly"
+    ContentTemplate="{DataTemplate local:Broly}"
+    Route="Broly" />
+
+</Shell>

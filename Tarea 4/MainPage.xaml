@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea_4.MainPage"
+             Shell.FlyoutBehavior="Flyout">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="logo.p´ng"
+                HeightRequest="185"
+                Aspect="AspectFit" />
+
+            <Label
+                Text="Presiona la esquina y selecciona un personaje!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

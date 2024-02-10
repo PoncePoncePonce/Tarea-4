@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea_4.Goku"
+             Title="Goku"
+             Shell.FlyoutBehavior="Flyout">
+    <VerticalStackLayout>
+        
+        <Image Source="goku.png" />
+        <Label 
+    Text="Es el protagonista principal del manga y anime de Dragon Ball creado por Akira Toriyama"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+
+
+    </VerticalStackLayout>
+</ContentPage>
